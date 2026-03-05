@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "src/app/api/extract/route.js": { "maxDuration": 60 },
+    "src/app/api/submit/route.js":  { "maxDuration": 60 },
+    "src/app/api/update/[token]/route.js": { "maxDuration": 60 }
+  }
+}
