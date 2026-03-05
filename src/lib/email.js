@@ -11,7 +11,7 @@
 
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_SECRET_KEY);
 
 // FROM address: wrap bare email with display name for nicer inbox presentation
 // Fallback: noreply@britaroma.com (a verified Resend domain)
